@@ -4,7 +4,7 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
 const baseUrl = 'https://weatherapi-com.p.rapidapi.com/'
 
 const weatherHeaders = {
-    'X-RapidAPI-Key': '9b1a72d15emshd433e494e613ca8p147134jsn08e961dc50bf',
+    'X-RapidAPI-Key': 'process.env.REACT_APP_WEATHER_API_KEY',
 	'X-RapidAPI-Host': 'weatherapi-com.p.rapidapi.com'
 }
 
