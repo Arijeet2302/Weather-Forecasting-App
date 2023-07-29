@@ -4,7 +4,7 @@ const options = {
 	method: 'GET',
 	headers: {
 		'X-BingApis-SDK': 'true',
-		'X-RapidAPI-Key': 'process.env.REACT_APP_NEWS_API_KEY',
+		'X-RapidAPI-Key': process.env.REACT_APP_NEWS_API_KEY,
 		'X-RapidAPI-Host': 'bing-news-search1.p.rapidapi.com'
 	}
 };
