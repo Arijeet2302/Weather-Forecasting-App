@@ -21,7 +21,7 @@ import 'mapbox-gl/dist/mapbox-gl.css';
 import '@mapbox/mapbox-gl-geocoder/dist/mapbox-gl-geocoder.css'
 
 
-const token = mapboxgl.accessToken = 'process.env.REACT_APP_MAPBOX_API_KEY'
+const token = mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_API_KEY
 
 
 const Mapbox = ({ location, current }) => {
